@@ -1,0 +1,4 @@
+INFOPLIST_FILE = Support/Info.plist
+PRODUCT_NAME = SCache
+PRODUCT_BUNDLE_IDENTIFIER = com.tbxark.$(PRODUCT_NAME:rfc1034identifier)
+MODULEMAP_FILE = $(SRCROOT)/Support/module.modulemap

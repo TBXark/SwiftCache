@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		565490B41D5A4820005622CB /* SCache.h in Headers */ = {isa = PBXBuildFile; fileRef = DC3773F819C8CBB3004FCF85 /* SCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		565490B51D5A4827005622CB /* SCache-Bridging.h in Headers */ = {isa = PBXBuildFile; fileRef = DC2393C61ABE35F8003FF113 /* SCache-Bridging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		565490CB1D5AE252005622CB /* (null) in Sources */ = {isa = PBXBuildFile; };
+		565490CC1D5AE252005622CB /* (null) in Sources */ = {isa = PBXBuildFile; };
+		565490D31D5AE252005622CB /* (null) in Sources */ = {isa = PBXBuildFile; };
+		565490D41D5AE252005622CB /* (null) in Sources */ = {isa = PBXBuildFile; };
+		565490E61D5AE282005622CB /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 565490E51D5AE282005622CB /* libsqlite3.tbd */; };
+		5683C2691B4D445E00296494 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5683C2681B4D445E00296494 /* libsqlite3.dylib */; };
+		56E5D82C1B4D437600430942 /* SCache.h in Headers */ = {isa = PBXBuildFile; fileRef = DC3773F819C8CBB3004FCF85 /* SCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56E5D82D1B4D438800430942 /* SCache-Bridging.h in Headers */ = {isa = PBXBuildFile; fileRef = DC2393C61ABE35F8003FF113 /* SCache-Bridging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AD5083E1DA6AA6A00E31609 /* Cacheable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD508351DA6AA6A00E31609 /* Cacheable.swift */; };
+		6AD5083F1DA6AA6A00E31609 /* Cacheable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD508351DA6AA6A00E31609 /* Cacheable.swift */; };
+		6AD508401DA6AA6A00E31609 /* Cacheable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD508351DA6AA6A00E31609 /* Cacheable.swift */; };
+		6AD508411DA6AA6A00E31609 /* DiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD508361DA6AA6A00E31609 /* DiskCache.swift */; };
+		6AD508421DA6AA6A00E31609 /* DiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD508361DA6AA6A00E31609 /* DiskCache.swift */; };
+		6AD508431DA6AA6A00E31609 /* DiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD508361DA6AA6A00E31609 /* DiskCache.swift */; };
+		6AD508441DA6AA6A00E31609 /* KVStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD508371DA6AA6A00E31609 /* KVStorage.swift */; };
+		6AD508451DA6AA6A00E31609 /* KVStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD508371DA6AA6A00E31609 /* KVStorage.swift */; };
+		6AD508461DA6AA6A00E31609 /* KVStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD508371DA6AA6A00E31609 /* KVStorage.swift */; };
+		6AD508471DA6AA6A00E31609 /* LinkedMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD508381DA6AA6A00E31609 /* LinkedMap.swift */; };
+		6AD508481DA6AA6A00E31609 /* LinkedMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD508381DA6AA6A00E31609 /* LinkedMap.swift */; };
+		6AD508491DA6AA6A00E31609 /* LinkedMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD508381DA6AA6A00E31609 /* LinkedMap.swift */; };
+		6AD5084A1DA6AA6A00E31609 /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD508391DA6AA6A00E31609 /* MD5.swift */; };
+		6AD5084B1DA6AA6A00E31609 /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD508391DA6AA6A00E31609 /* MD5.swift */; };
+		6AD5084C1DA6AA6A00E31609 /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD508391DA6AA6A00E31609 /* MD5.swift */; };
+		6AD5084D1DA6AA6A00E31609 /* MemoryCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD5083A1DA6AA6A00E31609 /* MemoryCache.swift */; };
+		6AD5084E1DA6AA6A00E31609 /* MemoryCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD5083A1DA6AA6A00E31609 /* MemoryCache.swift */; };
+		6AD5084F1DA6AA6A00E31609 /* MemoryCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD5083A1DA6AA6A00E31609 /* MemoryCache.swift */; };
+		6AD508501DA6AA6A00E31609 /* Mutex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD5083B1DA6AA6A00E31609 /* Mutex.swift */; };
+		6AD508511DA6AA6A00E31609 /* Mutex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD5083B1DA6AA6A00E31609 /* Mutex.swift */; };
+		6AD508521DA6AA6A00E31609 /* Mutex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD5083B1DA6AA6A00E31609 /* Mutex.swift */; };
+		6AD508531DA6AA6A00E31609 /* SQLiteDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD5083C1DA6AA6A00E31609 /* SQLiteDatabase.swift */; };
+		6AD508541DA6AA6A00E31609 /* SQLiteDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD5083C1DA6AA6A00E31609 /* SQLiteDatabase.swift */; };
+		6AD508551DA6AA6A00E31609 /* SQLiteDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD5083C1DA6AA6A00E31609 /* SQLiteDatabase.swift */; };
+		6AD508561DA6AA6A00E31609 /* SwiftCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD5083D1DA6AA6A00E31609 /* SwiftCache.swift */; };
+		6AD508571DA6AA6A00E31609 /* SwiftCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD5083D1DA6AA6A00E31609 /* SwiftCache.swift */; };
+		6AD508581DA6AA6A00E31609 /* SwiftCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD5083D1DA6AA6A00E31609 /* SwiftCache.swift */; };
+		DC2393C81ABE35F8003FF113 /* SCache-Bridging.h in Headers */ = {isa = PBXBuildFile; fileRef = DC2393C61ABE35F8003FF113 /* SCache-Bridging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC3773F919C8CBB3004FCF85 /* SCache.h in Headers */ = {isa = PBXBuildFile; fileRef = DC3773F819C8CBB3004FCF85 /* SCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC70AC991AC2331000371524 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DC37744219C8DC91004FCF85 /* libsqlite3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		565490A01D5A4798005622CB /* SCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		565490E51D5AE282005622CB /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.2.sdk/usr/lib/libsqlite3.tbd; sourceTree = DEVELOPER_DIR; };
+		5683C2681B4D445E00296494 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libsqlite3.dylib; sourceTree = DEVELOPER_DIR; };
+		56B8F49A1B4E2F3600C24296 /* SwiftCache.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SwiftCache.xcconfig; sourceTree = "<group>"; };
+		56C48E731C9A9923005DF1D9 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		56E5D7CA1B4D3FED00430942 /* SCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AD508351DA6AA6A00E31609 /* Cacheable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cacheable.swift; sourceTree = "<group>"; };
+		6AD508361DA6AA6A00E31609 /* DiskCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiskCache.swift; sourceTree = "<group>"; };
+		6AD508371DA6AA6A00E31609 /* KVStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVStorage.swift; sourceTree = "<group>"; };
+		6AD508381DA6AA6A00E31609 /* LinkedMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedMap.swift; sourceTree = "<group>"; };
+		6AD508391DA6AA6A00E31609 /* MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MD5.swift; sourceTree = "<group>"; };
+		6AD5083A1DA6AA6A00E31609 /* MemoryCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryCache.swift; sourceTree = "<group>"; };
+		6AD5083B1DA6AA6A00E31609 /* Mutex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mutex.swift; sourceTree = "<group>"; };
+		6AD5083C1DA6AA6A00E31609 /* SQLiteDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteDatabase.swift; sourceTree = "<group>"; };
+		6AD5083D1DA6AA6A00E31609 /* SwiftCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftCache.swift; sourceTree = "<group>"; };
+		DC2393C61ABE35F8003FF113 /* SCache-Bridging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SCache-Bridging.h"; path = "../SCache/SCache-Bridging.h"; sourceTree = "<group>"; };
+		DC3773F319C8CBB3004FCF85 /* SCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3773F719C8CBB3004FCF85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC3773F819C8CBB3004FCF85 /* SCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SCache.h; path = ../SCache/SCache.h; sourceTree = "<group>"; };
+		DC37744219C8DC91004FCF85 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5654909C1D5A4798005622CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565490E61D5AE282005622CB /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56E5D7C61B4D3FED00430942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5683C2691B4D445E00296494 /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3773EF19C8CBB3004FCF85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC70AC991AC2331000371524 /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		567D10621C9A911C00ACC500 /* SCacheiOS */ = {
+			isa = PBXGroup;
+			children = (
+				5683C2681B4D445E00296494 /* libsqlite3.dylib */,
+			);
+			name = SCacheiOS;
+			path = SCacheiOS;
+			sourceTree = "<group>";
+		};
+		567D10641C9A911C00ACC500 /* SCacheOSX */ = {
+			isa = PBXGroup;
+			children = (
+				DC37744219C8DC91004FCF85 /* libsqlite3.dylib */,
+			);
+			path = SCacheOSX;
+			sourceTree = "<group>";
+		};
+		56A2386F1B9C75030082EB20 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6AD508351DA6AA6A00E31609 /* Cacheable.swift */,
+				6AD5083D1DA6AA6A00E31609 /* SwiftCache.swift */,
+				6AD508361DA6AA6A00E31609 /* DiskCache.swift */,
+				6AD508371DA6AA6A00E31609 /* KVStorage.swift */,
+				6AD508381DA6AA6A00E31609 /* LinkedMap.swift */,
+				6AD508391DA6AA6A00E31609 /* MD5.swift */,
+				6AD5083A1DA6AA6A00E31609 /* MemoryCache.swift */,
+				6AD5083B1DA6AA6A00E31609 /* Mutex.swift */,
+				6AD5083C1DA6AA6A00E31609 /* SQLiteDatabase.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		56F5ABDE1D817B91001F60CB /* SCachewatchOS */ = {
+			isa = PBXGroup;
+			children = (
+				565490E51D5AE282005622CB /* libsqlite3.tbd */,
+			);
+			name = SCachewatchOS;
+			sourceTree = "<group>";
+		};
+		DC3773E919C8CBB3004FCF85 = {
+			isa = PBXGroup;
+			children = (
+				DC37742D19C8CC90004FCF85 /* SCache */,
+				DC3773F419C8CBB3004FCF85 /* Products */,
+			);
+			indentWidth = 4;
+			sourceTree = "<group>";
+			tabWidth = 4;
+			usesTabs = 0;
+		};
+		DC3773F419C8CBB3004FCF85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC3773F319C8CBB3004FCF85 /* SCache.framework */,
+				56E5D7CA1B4D3FED00430942 /* SCache.framework */,
+				565490A01D5A4798005622CB /* SCache.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC37742D19C8CC90004FCF85 /* SCache */ = {
+			isa = PBXGroup;
+			children = (
+				56A2386F1B9C75030082EB20 /* Core */,
+				DC37743319C8CFCE004FCF85 /* Supporting Files */,
+			);
+			path = SCache;
+			sourceTree = "<group>";
+		};
+		DC37743319C8CFCE004FCF85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56B8F49A1B4E2F3600C24296 /* SwiftCache.xcconfig */,
+				56C48E731C9A9923005DF1D9 /* module.modulemap */,
+				567D10621C9A911C00ACC500 /* SCacheiOS */,
+				567D10641C9A911C00ACC500 /* SCacheOSX */,
+				56F5ABDE1D817B91001F60CB /* SCachewatchOS */,
+				DC3773F819C8CBB3004FCF85 /* SCache.h */,
+				DC2393C61ABE35F8003FF113 /* SCache-Bridging.h */,
+				DC3773F719C8CBB3004FCF85 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			path = ../Support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5654909D1D5A4798005622CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565490B41D5A4820005622CB /* SCache.h in Headers */,
+				565490B51D5A4827005622CB /* SCache-Bridging.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56E5D7C71B4D3FED00430942 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56E5D82C1B4D437600430942 /* SCache.h in Headers */,
+				56E5D82D1B4D438800430942 /* SCache-Bridging.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3773F019C8CBB3004FCF85 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3773F919C8CBB3004FCF85 /* SCache.h in Headers */,
+				DC2393C81ABE35F8003FF113 /* SCache-Bridging.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5654909F1D5A4798005622CB /* SCacheWatchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 565490B31D5A4798005622CB /* Build configuration list for PBXNativeTarget "SCacheWatchOS" */;
+			buildPhases = (
+				5654909B1D5A4798005622CB /* Sources */,
+				5654909C1D5A4798005622CB /* Frameworks */,
+				5654909D1D5A4798005622CB /* Headers */,
+				5654909E1D5A4798005622CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCacheWatchOS;
+			productName = SCacheWatchOS;
+			productReference = 565490A01D5A4798005622CB /* SCache.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		56E5D7C91B4D3FED00430942 /* SCacheiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56E5D7DB1B4D3FEE00430942 /* Build configuration list for PBXNativeTarget "SCacheiOS" */;
+			buildPhases = (
+				56E5D7C51B4D3FED00430942 /* Sources */,
+				56E5D7C61B4D3FED00430942 /* Frameworks */,
+				56E5D7C71B4D3FED00430942 /* Headers */,
+				56E5D7C81B4D3FED00430942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCacheiOS;
+			productName = SCacheiOS;
+			productReference = 56E5D7CA1B4D3FED00430942 /* SCache.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC3773F219C8CBB3004FCF85 /* SCacheOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC37740919C8CBB3004FCF85 /* Build configuration list for PBXNativeTarget "SCacheOSX" */;
+			buildPhases = (
+				DC3773EE19C8CBB3004FCF85 /* Sources */,
+				DC3773EF19C8CBB3004FCF85 /* Frameworks */,
+				DC3773F019C8CBB3004FCF85 /* Headers */,
+				DC3773F119C8CBB3004FCF85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCacheOSX;
+			productName = SCache;
+			productReference = DC3773F319C8CBB3004FCF85 /* SCache.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC3773EA19C8CBB3004FCF85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Gwendal Roué";
+				TargetAttributes = {
+					5654909F1D5A4798005622CB = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+					};
+					56E5D7C91B4D3FED00430942 = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
+					};
+					DC3773F219C8CBB3004FCF85 = {
+						CreatedOnToolsVersion = 6.1;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = DC3773ED19C8CBB3004FCF85 /* Build configuration list for PBXProject "SCache" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC3773E919C8CBB3004FCF85;
+			productRefGroup = DC3773F419C8CBB3004FCF85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC3773F219C8CBB3004FCF85 /* SCacheOSX */,
+				56E5D7C91B4D3FED00430942 /* SCacheiOS */,
+				5654909F1D5A4798005622CB /* SCacheWatchOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5654909E1D5A4798005622CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56E5D7C81B4D3FED00430942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3773F119C8CBB3004FCF85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5654909B1D5A4798005622CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565490CC1D5AE252005622CB /* (null) in Sources */,
+				6AD5084F1DA6AA6A00E31609 /* MemoryCache.swift in Sources */,
+				6AD508551DA6AA6A00E31609 /* SQLiteDatabase.swift in Sources */,
+				565490D41D5AE252005622CB /* (null) in Sources */,
+				565490D31D5AE252005622CB /* (null) in Sources */,
+				565490CB1D5AE252005622CB /* (null) in Sources */,
+				6AD508401DA6AA6A00E31609 /* Cacheable.swift in Sources */,
+				6AD508521DA6AA6A00E31609 /* Mutex.swift in Sources */,
+				6AD5084C1DA6AA6A00E31609 /* MD5.swift in Sources */,
+				6AD508461DA6AA6A00E31609 /* KVStorage.swift in Sources */,
+				6AD508431DA6AA6A00E31609 /* DiskCache.swift in Sources */,
+				6AD508491DA6AA6A00E31609 /* LinkedMap.swift in Sources */,
+				6AD508581DA6AA6A00E31609 /* SwiftCache.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56E5D7C51B4D3FED00430942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD508451DA6AA6A00E31609 /* KVStorage.swift in Sources */,
+				6AD5084B1DA6AA6A00E31609 /* MD5.swift in Sources */,
+				6AD5083F1DA6AA6A00E31609 /* Cacheable.swift in Sources */,
+				6AD5084E1DA6AA6A00E31609 /* MemoryCache.swift in Sources */,
+				6AD508511DA6AA6A00E31609 /* Mutex.swift in Sources */,
+				6AD508421DA6AA6A00E31609 /* DiskCache.swift in Sources */,
+				6AD508571DA6AA6A00E31609 /* SwiftCache.swift in Sources */,
+				6AD508541DA6AA6A00E31609 /* SQLiteDatabase.swift in Sources */,
+				6AD508481DA6AA6A00E31609 /* LinkedMap.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3773EE19C8CBB3004FCF85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD508441DA6AA6A00E31609 /* KVStorage.swift in Sources */,
+				6AD5084A1DA6AA6A00E31609 /* MD5.swift in Sources */,
+				6AD5083E1DA6AA6A00E31609 /* Cacheable.swift in Sources */,
+				6AD5084D1DA6AA6A00E31609 /* MemoryCache.swift in Sources */,
+				6AD508501DA6AA6A00E31609 /* Mutex.swift in Sources */,
+				6AD508411DA6AA6A00E31609 /* DiskCache.swift in Sources */,
+				6AD508561DA6AA6A00E31609 /* SwiftCache.swift in Sources */,
+				6AD508531DA6AA6A00E31609 /* SQLiteDatabase.swift in Sources */,
+				6AD508471DA6AA6A00E31609 /* LinkedMap.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		565490A51D5A4798005622CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56B8F49A1B4E2F3600C24296 /* SwiftCache.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = SCache;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		565490A61D5A4798005622CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56B8F49A1B4E2F3600C24296 /* SwiftCache.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = SCache;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		56E5D7DC1B4D3FEE00430942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56B8F49A1B4E2F3600C24296 /* SwiftCache.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = SCache;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56E5D7DD1B4D3FEE00430942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56B8F49A1B4E2F3600C24296 /* SwiftCache.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = SCache;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC37740719C8CBB3004FCF85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DC37740819C8CBB3004FCF85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DC37740A19C8CBB3004FCF85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56B8F49A1B4E2F3600C24296 /* SwiftCache.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Support/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = SCache;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DC37740B19C8CBB3004FCF85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56B8F49A1B4E2F3600C24296 /* SwiftCache.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Support/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = SCache;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		565490B31D5A4798005622CB /* Build configuration list for PBXNativeTarget "SCacheWatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				565490A51D5A4798005622CB /* Debug */,
+				565490A61D5A4798005622CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56E5D7DB1B4D3FEE00430942 /* Build configuration list for PBXNativeTarget "SCacheiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56E5D7DC1B4D3FEE00430942 /* Debug */,
+				56E5D7DD1B4D3FEE00430942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC3773ED19C8CBB3004FCF85 /* Build configuration list for PBXProject "SCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC37740719C8CBB3004FCF85 /* Debug */,
+				DC37740819C8CBB3004FCF85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC37740919C8CBB3004FCF85 /* Build configuration list for PBXNativeTarget "SCacheOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC37740A19C8CBB3004FCF85 /* Debug */,
+				DC37740B19C8CBB3004FCF85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC3773EA19C8CBB3004FCF85 /* Project object */;
+}
