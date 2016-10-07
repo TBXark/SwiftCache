@@ -105,7 +105,6 @@
 			children = (
 				5683C2681B4D445E00296494 /* libsqlite3.dylib */,
 			);
-			name = SCacheiOS;
 			path = SCacheiOS;
 			sourceTree = "<group>";
 		};
