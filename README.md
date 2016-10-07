@@ -1,6 +1,7 @@
 # SwiftCache
 
 SwiftCache is a pure swift cache framework inspired by [YYCache](http://github.com/ibireme/YYCache)
+
 在 OC里面 [YYCache](https://github.com/ibireme/YYCache) 算是最出色的一个缓存框架, 我在研究 YYCache 的代码的时候就顺便用 Swift 仿写了一遍, 毕竟比起看代码, 写代码更能加深理解. 写得时候也充分的利用的 Swift语言的优势, 加上了泛型类 Any 类型的支持(因为YYCache是 OC 写的所以只能缓存 class 类型). 虽然在写指针的时候特别蛋疼.
 
 
@@ -21,7 +22,9 @@ SwiftCache is a pure swift cache framework inspired by [YYCache](http://github.c
 ## Installation
 
 #### Carthage
-Create a `Cartfile` that lists the framework and run `carthage update`. Follow the [instructions](https://github.com/Carthage/Carthage#if-youre-building-for-ios) to add `$(SRCROOT)/Carthage/Build/iOS/SCache.framework` to an iOS project.
+Create a `Cartfile` that lists the framework and run `carthage update`.
+
+Follow the [instructions](https://github.com/Carthage/Carthage#if-youre-building-for-ios) to add `$(SRCROOT)/Carthage/Build/iOS/SCache.framework` to an iOS project.
 add `
 
 
@@ -69,7 +72,9 @@ if let aCache = structCache?.valueForKey(1) {
 ## Thank
 
 [YYCache](https://github.com/ibireme/YYCache) High performance cache framework for iOS.
+
 [GRDB.swift](https://github.com/groue/GRDB.swift)  A Swift application toolkit for SQLite databases, with WAL mode support https://www.sqlite.org
+
 [SwiftMD5](https://github.com/mpurland/SwiftMD5) A pure Swift implementation of MD5
 
 
