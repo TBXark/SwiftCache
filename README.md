@@ -24,8 +24,10 @@ SwiftCache is a pure swift cache framework inspired by [YYCache](http://github.c
 #### Carthage
 Create a `Cartfile` that lists the framework and run `carthage update`.
 
-Follow the [instructions](https://github.com/Carthage/Carthage#if-youre-building-for-ios) to add `$(SRCROOT)/Carthage/Build/iOS/SCache.framework` to an iOS project.
-add `
+Follow the [instructions](https://github.com/Carthage/Carthage#if-youre-building-for-ios) to add`$(SRCROOT)/Carthage/Build/iOS/SCache.framework` to an iOS project.
+```
+github "tbxark/SwiftCache"
+```
 
 
 ## Usage example
