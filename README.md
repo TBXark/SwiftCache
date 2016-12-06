@@ -94,7 +94,7 @@ We would love for you to contribute to **SwiftCache**, check the ``LICENSE`` fil
 
 ## Meta
 
-TBXark – [@vfanx](https://twitter.com/vfanx) – tbxark@outlook.com
+TBXark – [@tbxark](https://twitter.com/tbxark) – tbxark@outlook.com
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
